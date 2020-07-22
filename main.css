@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: indianred;
+}
+#dino-barn {
+    display: flex;
+}
+.dinosaur {
+    border-color: blue;
+    border-style: solid;
+}
+.assignment {
+    border: 2px solid blue;
+    background-color: mediumturquoise;
+    text-align: center;
+    width: 300px;
+}
+#assignments {
+    display: flex;
+    flex-flow: row wrap;
 }
